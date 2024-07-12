@@ -1,7 +1,61 @@
 {
   "name": "Home",
   "path": "/",
-  "sections": [],
+  "sections": [
+    {
+      "__resolveType": "site/sections/Header.tsx",
+      "logo": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/11440/30c6f053-3485-4012-9de2-12281fbac16d",
+      "menu": [
+        {
+          "label": "Home",
+          "url": "/"
+        },
+        {
+          "label": "Category",
+          "url": "/"
+        },
+        {
+          "label": "About",
+          "url": "/"
+        },
+        {
+          "label": "Contact",
+          "url": "/"
+        }
+      ],
+      "joinus": {
+        "label": "Join the community",
+        "url": "/"
+      }
+    },
+    {
+      "__resolveType": "site/sections/Hero.tsx",
+      "banner": {
+        "imageDesktop": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/11440/ee91476b-e510-4056-97e5-1ed68cc96143",
+        "imageMobile": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/11440/f2eab405-0f91-446c-bba2-2c1ce20a5a9e"
+      },
+      "title": "One more friend",
+      "subtitle": "Thousands more fun!",
+      "text": "Having a pet means you have more joy, a new friend, a happy person who will always be with you to have fun. We have 200+ different pets that can meet your needs!",
+      "videoLink": {
+        "label": "View Intro",
+        "link": "/"
+      },
+      "cta": {
+        "label": "Explore Now",
+        "link": "/"
+      }
+    },
+    {
+      "__resolveType": "site/sections/LookPets.tsx",
+      "link": {
+        "label": "View more",
+        "url": "/"
+      },
+      "subtitle": "Whats new?",
+      "title": "Take a look at some of our pets"
+    }
+  ],
   "__resolveType": "website/pages/Page.tsx",
   "seo": {
     "__resolveType": "website/sections/Seo/SeoV2.tsx"
