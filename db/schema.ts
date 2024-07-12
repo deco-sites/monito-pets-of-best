@@ -1,14 +1,11 @@
+import { integer, sqliteTable, text } from "drizzle-orm/sqlite-core";
 
-/**
-* The code snippet below is an example.
-*/
-
-/**
-* import { integer, sqliteTable, text } from "drizzle-orm/sqlite-core";
-
-export const profiles = sqliteTable("profiles", {
+export const profiles = sqliteTable("dogs", {
   id: integer("id").primaryKey({ autoIncrement: true }),
-  name: text("name"),
-  email: text("email"),
+  raca: text("raca"),
+  cor: text("cor"),
+  genero: text("genero"),
+  idade: integer("idade"),
+  preco: integer("preco"),
+  image: text("image"),
 });
-*/
