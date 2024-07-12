@@ -17,8 +17,9 @@ const manifest = {
     "site/sections/Theme/Theme.tsx": $$$$$$3,
   },
   "apps": {
-    "site/apps/decohub.ts": $$$$$$$$$$$0,
-    "site/apps/site.ts": $$$$$$$$$$$1,
+    "site/apps/deco/records.ts": $$$$$$$$$$$0,
+    "site/apps/decohub.ts": $$$$$$$$$$$1,
+    "site/apps/site.ts": $$$$$$$$$$$2,
   },
   "name": "site",
   "baseUrl": import.meta.url,

@@ -80,3 +80,4 @@ _docker_deps.ts
 
 # Deno Files
 deno.*.tmp
+sqlite.db
