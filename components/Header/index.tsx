@@ -15,7 +15,7 @@ export interface Props {
 
 export default function Header({ menu, logo, joinus }: Props) {
   return (
-    <div class="w-full lg:fixed top-0 left-0 flex justify-center py-8 px-5">
+    <div class="w-full fixed z-10 top-0 left-0 flex justify-center py-8 px-5">
       <div class="w-full max-w-[1180px] flex items-center gap-12">
         <div class="w-full h-full flex items-center gap-12">
           <a href="/">

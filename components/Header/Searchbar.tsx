@@ -7,7 +7,7 @@ export function Searchbar() {
       <input
         type="text"
         placeholder="Search"
-        class="border-none bg-white h-full w-full"
+        class="border-none bg-white h-full w-full outline-0"
       />
     </div>
   );
