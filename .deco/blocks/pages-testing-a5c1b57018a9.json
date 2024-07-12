@@ -1,65 +1,7 @@
 {
   "name": "Home",
   "path": "/",
-  "sections": [
-    {
-      "__resolveType": "site/sections/Header.tsx",
-      "menu": [
-        {
-          "label": "Home",
-          "url": "/"
-        },
-        {
-          "label": "Category",
-          "url": "/"
-        },
-        {
-          "label": "About",
-          "url": "/"
-        },
-        {
-          "label": "Contact",
-          "url": "/"
-        }
-      ],
-      "logo": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/11440/d7e03a6e-f5fd-459c-8aa3-776d03dee937",
-      "joinus": {
-        "label": "Join the community",
-        "url": "/"
-      }
-    },
-    {
-      "__resolveType": "site/sections/Hero.tsx",
-      "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/11440/217a657c-5f18-4745-af84-b76e9827b3f7",
-      "title": "One more friend",
-      "subtitle": "Thousands more fun!",
-      "videoLink": {
-        "label": "View Intro",
-        "link": "/"
-      },
-      "cta": {
-        "label": "Explore Now",
-        "link": "/"
-      },
-      "text": "Having a pet means you have more joy, a new friend, a happy person who will always be with you to have fun. We have 200+ different pets that can meet your needs!",
-      "banner": {
-        "imageDesktop": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/11440/d5e02972-4afe-44e2-9c51-f9d649863997",
-        "imageMobile": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/11440/5355ad47-1de9-416e-89f0-5fd24a6200ba"
-      }
-    },
-    {
-      "__resolveType": "site/sections/LookPets.tsx",
-      "title": "Take a look at some of our pets",
-      "subtitle": "Whats new?",
-      "link": {
-        "label": "View more",
-        "url": "/"
-      },
-      "vitrine": {
-        "orientation": "Vertical"
-      }
-    }
-  ],
+  "sections": [],
   "__resolveType": "website/pages/Page.tsx",
   "seo": {
     "__resolveType": "website/sections/Seo/SeoV2.tsx"
