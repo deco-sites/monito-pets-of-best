@@ -2,7 +2,7 @@ import { SearchIcon } from "site/components/ui/Icons/SearchIcon.tsx";
 
 export function Searchbar() {
   return (
-    <div class="lg:w-full h-full flex items-center gap-2 px-5 py-3 bg-white rounded-full">
+    <div class="lg:w-full h-full flex items-center gap-2 lg:px-5 lg:py-3 lg:bg-white rounded-full">
       <SearchIcon />
       <input
         type="text"

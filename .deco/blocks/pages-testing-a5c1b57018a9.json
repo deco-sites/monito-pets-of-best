@@ -47,22 +47,13 @@
       }
     },
     {
-      "__resolveType": "site/sections/LookPets.tsx",
-      "link": {
-        "label": "View more",
-        "url": "/"
-      },
-      "subtitle": "Whats new?",
-      "title": "Take a look at some of our pets"
-    },
-    {
       "__resolveType": "site/sections/Testimonials.tsx",
-      "title": "Testimonials",
-      "subtitle": "You already know ?",
       "link": {
         "label": "View more",
         "url": "/"
       },
+      "subtitle": "You already know ?",
+      "title": "Testimonials",
       "testimonials": [
         {
           "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/11440/f05f9d38-a9ed-43d0-b254-31d5aab6493e",
