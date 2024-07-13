@@ -93,7 +93,8 @@
           "show": true,
           "url": "/"
         }
-      }
+      },
+      "logo": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/11440/30c6f053-3485-4012-9de2-12281fbac16d"
     }
   ],
   "__resolveType": "website/pages/Page.tsx",
