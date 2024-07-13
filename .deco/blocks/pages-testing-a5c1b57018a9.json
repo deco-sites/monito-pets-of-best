@@ -54,6 +54,46 @@
       },
       "subtitle": "Whats new?",
       "title": "Take a look at some of our pets"
+    },
+    {
+      "__resolveType": "site/sections/Footer.tsx",
+      "title": "Register now so you don't miss our programs",
+      "menu": [
+        {
+          "label": "Home",
+          "url": "/"
+        },
+        {
+          "label": "Category",
+          "url": "/"
+        },
+        {
+          "label": "About",
+          "url": "/"
+        },
+        {
+          "label": "Contact",
+          "url": "/"
+        }
+      ],
+      "socialmedia": {
+        "facebook": {
+          "show": true,
+          "url": "/"
+        },
+        "xuitter": {
+          "show": true,
+          "url": "/"
+        },
+        "instagram": {
+          "show": true,
+          "url": "/"
+        },
+        "youtube": {
+          "show": true,
+          "url": "/"
+        }
+      }
     }
   ],
   "__resolveType": "website/pages/Page.tsx",

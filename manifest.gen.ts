@@ -5,17 +5,19 @@
 import * as $$$$$$$$$$$0 from "./apps/deco/records.ts";
 import * as $$$$$$$$$$$1 from "./apps/decohub.ts";
 import * as $$$$$$$$$$$2 from "./apps/site.ts";
-import * as $$$$$$0 from "./sections/Header.tsx";
-import * as $$$$$$1 from "./sections/Hero.tsx";
-import * as $$$$$$2 from "./sections/LookPets.tsx";
-import * as $$$$$$3 from "./sections/Theme/Theme.tsx";
+import * as $$$$$$0 from "./sections/Footer.tsx";
+import * as $$$$$$1 from "./sections/Header.tsx";
+import * as $$$$$$2 from "./sections/Hero.tsx";
+import * as $$$$$$3 from "./sections/LookPets.tsx";
+import * as $$$$$$4 from "./sections/Theme/Theme.tsx";
 
 const manifest = {
   "sections": {
-    "site/sections/Header.tsx": $$$$$$0,
-    "site/sections/Hero.tsx": $$$$$$1,
-    "site/sections/LookPets.tsx": $$$$$$2,
-    "site/sections/Theme/Theme.tsx": $$$$$$3,
+    "site/sections/Footer.tsx": $$$$$$0,
+    "site/sections/Header.tsx": $$$$$$1,
+    "site/sections/Hero.tsx": $$$$$$2,
+    "site/sections/LookPets.tsx": $$$$$$3,
+    "site/sections/Theme/Theme.tsx": $$$$$$4,
   },
   "apps": {
     "site/apps/deco/records.ts": $$$$$$$$$$$0,
