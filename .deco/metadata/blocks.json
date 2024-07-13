@@ -104,5 +104,9 @@
   "/.deco/blocks/deco-records.json": {
     "blockType": "apps",
     "__resolveType": "site/apps/deco/records.ts"
+  },
+  "/.deco/blocks/Preview%20%2Fsections%2FTheme%2FTheme.tsx.json": {
+    "blockType": "sections",
+    "__resolveType": "site/sections/Theme/Theme.tsx"
   }
 }
