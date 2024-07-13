@@ -1,15 +1,5 @@
 import { Pets } from "site/components/LookPets/Pets.tsx";
 import { Controls } from "site/components/LookPets/Controls.tsx";
-
-export interface Pet {
-  raca: string;
-  cor: string;
-  genero: string;
-  idade: number;
-  preco: number;
-  image: string;
-}
-
 export interface Props {
   title?: string;
   subtitle?: string;
