@@ -1,9 +1,0 @@
-{
-  "__resolveType": "site/apps/deco/records.ts",
-  "url": "libsql://monito-pets-of-best-decocx.turso.io",
-  "authToken": {
-    "__resolveType": "website/loaders/secret.ts",
-    "name": "DATABASE_AUTH_TOKEN",
-    "encrypted": "c4a1badef52a295fac5534db58e4e0dcfc35055afb3e457af0fd8076a5fe1a715b96d3c5c1bf68ee611f49196f5447ff626987776253edeec4dd55a6c8ac7e8761baf9293b8c78f16d99a87bb66e61469206cc48706a99fad7012020cfdf4f4a9f1d502c67825cb8c38eb0e6b76f30e0add8d699be3160efea0f5899628d21cef71f45c3aef17dfb20164254130e2eb1ff1a6c89ee0289d3a5bdc7235fc96560b90afd4630872c4e066fd929d568d1a4c3698261468ad88217ae8ee8e3e2f6f3bb08677d83708d0d428a8a57b7e28e14326e81bfd17edba039541307bce9efc4"
-  }
-}

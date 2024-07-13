@@ -56,6 +56,32 @@
       "title": "Take a look at some of our pets"
     },
     {
+      "__resolveType": "site/sections/Testimonials.tsx",
+      "title": "Testimonials",
+      "subtitle": "You already know ?",
+      "link": {
+        "label": "View more",
+        "url": "/"
+      },
+      "testimonials": [
+        {
+          "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/11440/f05f9d38-a9ed-43d0-b254-31d5aab6493e",
+          "author": "Sylvester Stalone",
+          "commentary": "The Pomeranian, also known as the Pomeranian (Pom dog), is always in the top of the cutest pets. Not only that, the small, lovely, smart, friendly, and skillful circus dog breed."
+        },
+        {
+          "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/11440/ea6ea407-255b-4990-a78e-9f18b97d05d1",
+          "author": "Lady Day",
+          "commentary": "Dividing a dog's diet may seem simple at first, but there are some rules you should know so that your dog can easily absorb the nutrients in the diet. For those who are just starting to raise dogs, especially newborn puppies with relatively weak resistance."
+        },
+        {
+          "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/11440/bc8c7e07-aa17-49e7-b0e6-68ec665099ac",
+          "author": "Chucky Norris",
+          "commentary": "Dog bites are common during development. However, no one wants to see their furniture or important items being bitten by a dog."
+        }
+      ]
+    },
+    {
       "__resolveType": "site/sections/Footer.tsx",
       "title": "Register now so you don't miss our programs",
       "menu": [

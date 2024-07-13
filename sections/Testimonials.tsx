@@ -1,4 +1,12 @@
-import { Controls } from "site/components/LookPets/Controls.tsx";
+import { ImageWidget } from "apps/admin/widgets.ts";
+import { Testimonial } from "site/components/Testimonial/index.tsx";
+
+export interface Testimonial {
+  image: ImageWidget;
+  author: string;
+  commentary: string;
+}
+
 export interface Props {
   title?: string;
   subtitle?: string;
@@ -6,10 +14,11 @@ export interface Props {
     label: string;
     url: string;
   };
+  testimonials: Testimonial[];
 }
 
-export default function LookPets(
-  { title, subtitle, link }: Props,
+export default function Testimonials(
+  { title, subtitle, link, testimonials }: Props,
 ) {
   return (
     <div class="w-full flex justify-center py-10 px-5">
@@ -22,17 +31,24 @@ export default function LookPets(
             </h3>
           </div>
           <div class="flex items-center gap-5">
-            <Controls />
-
             <a
               href={link?.url}
               class="rounded-full py-3 px-7 border-2 border-[#003459] 
-              bg-transparent text-[#003459] text-sm font-medium flex items-center gap-2 max-lg:px-4 max-lg:hidden 
+              bg-transparent text-[#003459] text-sm font-medium flex items-center gap-2 max-lg:px-4 
               transition-all hover:bg-[#01243d] hover:text-white hover:transition-all"
             >
               {link?.label}
             </a>
           </div>
+        </div>
+        <div class="w-full flex items-center justify-between gap-5 max-lg:flex-col">
+          {testimonials.map((item) => (
+            <Testimonial
+              author={item.author}
+              image={item.image}
+              commentary={item.commentary}
+            />
+          ))}
         </div>
       </div>
     </div>
