@@ -1,4 +1,4 @@
-import { Controls } from "site/components/LookPets/Controls.tsx";
+/* import { Controls } from "site/components/LookPets/Controls.tsx"; */
 import { PetsList } from "site/components/LookPets/PetsList.tsx";
 
 export interface Data {

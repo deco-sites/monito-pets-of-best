@@ -15,7 +15,7 @@ export function PetItem(
 ) {
   return (
     <div
-      class={`w-full flex bg-white shadow-lg p-2 rounded-lg gap-5 ${
+      class={`w-full flex bg-white shadow-lg p-2 rounded-lg gap-5 max-lg:max-w-full ${
         format === "Vertical"
           ? "max-w-[280px] flex-col"
           : "max-w-[580px] flex-rol items-center"
