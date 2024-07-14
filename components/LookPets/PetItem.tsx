@@ -15,16 +15,16 @@ export function PetItem(
 ) {
   return (
     <div
-      class={`w-full flex bg-white shadow-lg p-2 rounded-lg gap-5 max-lg:max-w-full ${
+      class="w-full flex bg-white shadow-lg p-2 rounded-lg gap-5 max-w-[280px] max-md:max-w-full"
+      style={`${
         format === "Vertical"
-          ? "max-w-[280px] flex-col"
-          : "max-w-[580px] flex-rol items-center"
+          ? "flex-direction: column;"
+          : "max-width: 580px; flex-direction: row; align-items: center"
       }`}
     >
       <div
-        class={`w-full rounded-lg ${
-          format === "Horizontal" && "max-w-[165px]"
-        }`}
+        class="w-full rounded-lg"
+        style={`${format === "Horizontal" && "max-width: 165px"}`}
       >
         <Image
           src={image}
@@ -36,8 +36,11 @@ export function PetItem(
       <div class="w-full flex flex-col gap-3 p-2">
         <p class="text-base font-bold text-[#00171F]">{raca} - {cor}</p>
         <div
-          class={`flex items-center ${
-            format === "Horizontal" ? "justify-start gap-5" : "justify-between"
+          class="flex items-center"
+          style={`${
+            format === "Horizontal"
+              ? "justify-content: flex-start; gap: 20px"
+              : "justify-content: space-between"
           }`}
         >
           <span class="text-xs text-[#667479]">
